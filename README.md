@@ -47,9 +47,10 @@ Battery optimization allows you to put your app into the whitelist. By default, 
 $ yarn add react-native-battery-optimization-check
 ```
 
-	Link is automatic on react native >= 0.60
+Link is automatic on react native >= 0.60
 
-## For manual linking :
+### For manual linking :
+
 ```sh
 $ react-native link react-native-battery-optimization-check
 ```
@@ -124,6 +125,20 @@ BatteryOptEnabled().then((isEnabled)=>{
 	}
 });
 ```
+
+# Example App
+
+In order to run the example app, you need to install the library and then go to the /example folder and run the following commands:
+
+1. instal and link node_modules
+	```sh
+	$ yarn
+	```
+
+2. run the app
+	```sh
+	$ react-native run-android
+	```
 
 ## Contributing
 
