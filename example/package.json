@@ -1,6 +1,6 @@
 {
-  "name": "react-native-batery-optimization-check-example",
-  "description": "Example app for react-native-batery-optimization-check",
+  "name": "react-native-battery-optimization-check-example",
+  "description": "Example app for react-native-battery-optimization-check",
   "version": "0.0.1",
   "private": true,
   "scripts": {

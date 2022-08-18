@@ -1,4 +1,4 @@
-package com.example.reactnativebateryoptimizationcheck.newarchitecture;
+package com.example.reactnativebatteryoptimizationcheck.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.example.reactnativebateryoptimizationcheck.BuildConfig;
-import com.example.reactnativebateryoptimizationcheck.newarchitecture.components.MainComponentsRegistry;
-import com.example.reactnativebateryoptimizationcheck.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.example.reactnativebatteryoptimizationcheck.BuildConfig;
+import com.example.reactnativebatteryoptimizationcheck.newarchitecture.components.MainComponentsRegistry;
+import com.example.reactnativebatteryoptimizationcheck.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

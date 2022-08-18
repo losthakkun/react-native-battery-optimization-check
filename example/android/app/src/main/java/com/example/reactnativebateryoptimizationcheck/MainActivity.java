@@ -1,4 +1,4 @@
-package com.example.reactnativebateryoptimizationcheck;
+package com.example.reactnativebatteryoptimizationcheck;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

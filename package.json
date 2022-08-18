@@ -1,5 +1,5 @@
 {
-  "name": "react-native-batery-optimization-check",
+  "name": "react-native-battery-optimization-check",
   "version": "0.1.0",
   "description": "test",
   "main": "lib/commonjs/index",
@@ -11,37 +11,45 @@
     "src",
     "lib",
     "android",
-    "ios",
     "cpp",
-    "react-native-batery-optimization-check.podspec",
-    "!lib/typescript/example",
-    "!android/build",
-    "!ios/build",
+    "!**/__mocks__",
     "!**/__tests__",
+    "!android/build",
     "!**/__fixtures__",
-    "!**/__mocks__"
+    "!lib/typescript/example"
   ],
   "scripts": {
     "test": "jest",
-    "typescript": "tsc --noEmit",
-    "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "prepare": "bob build",
     "release": "release-it",
+    "typescript": "tsc --noEmit",
     "example": "yarn --cwd example",
-    "bootstrap": "yarn example && yarn && yarn example pods"
+    "bootstrap": "yarn example && yarn",
+    "lint": "eslint \"**/*.{js,ts,tsx}\""
   },
   "keywords": [
+    "doze",
+    "check",
+    "battery",
+    "standby",
+    "android",
+    "wakelock",
+    "optimization",
     "react-native",
-    "ios",
-    "android"
+    "react-component",
+    "battery optimization",
+    "battery optimization check",
+    "IGNORE_BATTERY_OPTIMIZATION_SETTINGS",
+    "REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+    "react-native-battery-optimization-check"
   ],
-  "repository": "https://github.com/losthakkun/react-native-batery-optimization-check",
+  "repository": "https://github.com/losthakkun/react-native-battery-optimization-check",
   "author": "losthakkun <losthakkun@gmail.com> (https://github.com/losthakkun)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/losthakkun/react-native-batery-optimization-check/issues"
+    "url": "https://github.com/losthakkun/react-native-battery-optimization-check/issues"
   },
-  "homepage": "https://github.com/losthakkun/react-native-batery-optimization-check#readme",
+  "homepage": "https://github.com/losthakkun/react-native-battery-optimization-check#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -72,7 +80,7 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": ">=0.63.3"
   },
   "jest": {
     "preset": "react-native",

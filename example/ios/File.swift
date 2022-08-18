@@ -1,6 +1,6 @@
 //
 //  File.swift
-//  BateryOptimizationCheckExample
+//  BatteryOptimizationCheckExample
 //
 
 import Foundation

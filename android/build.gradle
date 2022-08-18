@@ -20,11 +20,11 @@ if (isNewArchitectureEnabled()) {
 }
 
 def getExtOrDefault(name) {
-  return rootProject.ext.has(name) ? rootProject.ext.get(name) : project.properties['BateryOptimizationCheck_' + name]
+  return rootProject.ext.has(name) ? rootProject.ext.get(name) : project.properties['BatteryOptimizationCheck_' + name]
 }
 
 def getExtOrIntegerDefault(name) {
-  return rootProject.ext.has(name) ? rootProject.ext.get(name) : (project.properties['BateryOptimizationCheck_' + name]).toInteger()
+  return rootProject.ext.has(name) ? rootProject.ext.get(name) : (project.properties['BatteryOptimizationCheck_' + name]).toInteger()
 }
 
 android {
@@ -131,7 +131,7 @@ dependencies {
 if (isNewArchitectureEnabled()) {
   react {
     jsRootDir = file("../src/")
-    libraryName = "BateryOptimizationCheck"
-    codegenJavaPackageName = "com.reactnativebateryoptimizationcheck"
+    libraryName = "BatteryOptimizationCheck"
+    codegenJavaPackageName = "com.reactnativebatteryoptimizationcheck"
   }
 }

@@ -1,15 +1,15 @@
-# react-native-batery-optimization-check
+# react-native-battery-optimization-check
 A react-native solution to check if your app runs under battery optimization on Android devices.
 ## Installation
 
 ```sh
-npm install react-native-batery-optimization-check
+npm install react-native-battery-optimization-check
 ```
 
 ## Usage
 
 ```js
-import { multiply } from "react-native-batery-optimization-check";
+import { multiply } from "react-native-battery-optimization-check";
 
 // ...
 

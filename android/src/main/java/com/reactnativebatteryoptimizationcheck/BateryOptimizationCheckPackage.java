@@ -1,4 +1,4 @@
-package com.reactnativebateryoptimizationcheck;
+package com.reactnativebatteryoptimizationcheck;
 
 import androidx.annotation.NonNull;
 
@@ -11,12 +11,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class BateryOptimizationCheckPackage implements ReactPackage {
+public class BatteryOptimizationCheckPackage implements ReactPackage {
     @NonNull
     @Override
     public List<NativeModule> createNativeModules(@NonNull ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
-        modules.add(new BateryOptimizationCheckModule(reactContext));
+        modules.add(new BatteryOptimizationCheckModule(reactContext));
         return modules;
     }
 
