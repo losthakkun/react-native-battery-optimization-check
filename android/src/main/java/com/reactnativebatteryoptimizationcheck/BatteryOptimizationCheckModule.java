@@ -62,10 +62,8 @@ public class BatteryOptimizationCheckModule extends ReactContextBaseJavaModule {
     @ReactMethod
     public void openOptimizationSettings() {
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            String packageName = reactContext.getPackageName();
             Intent intent = new Intent();
             intent.setAction(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS);
-            intent.setData(Uri.parse("package:" + packageName));
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             reactContext.startActivity(intent);
         }
