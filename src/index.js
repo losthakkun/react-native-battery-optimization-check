@@ -1,9 +1,10 @@
 import { NativeModules, Platform } from 'react-native';
 
-const BatteryOptimizationCheck = Platform.OS === 'android' ? NativeModules.BatteryOptimizationCheck : null;
+const BatteryOptimizationCheck =
+  Platform.OS === 'android' ? NativeModules.BatteryOptimizationCheck : null;
 
 export function BatteryOptEnabled() {
-  if(Platform.OS === 'android') {
+  if (Platform.OS === 'android') {
     //* Android only returns function
     return BatteryOptimizationCheck.isBatteryOptEnabled();
   }
@@ -11,7 +12,7 @@ export function BatteryOptEnabled() {
 }
 
 export function RequestDisableOptimization() {
-  if(Platform.OS === 'android') {
+  if (Platform.OS === 'android') {
     //* Android only returns function
     BatteryOptimizationCheck.openRequestDisableOptimization();
   }
@@ -19,7 +20,7 @@ export function RequestDisableOptimization() {
 }
 
 export function OpenOptimizationSettings() {
-  if(Platform.OS === 'android') {
+  if (Platform.OS === 'android') {
     //* Android only returns function
     BatteryOptimizationCheck.openOptimizationSettings();
   }
