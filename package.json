@@ -1,6 +1,6 @@
 {
   "name": "react-native-battery-optimization-check",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A react-native solution to check if your app runs under battery optimization on Android devices and makes it easy for the user to disable it.",
   "main": "lib/commonjs/index.js",
   "types": "lib/typescript/index.d.ts",
